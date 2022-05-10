@@ -37,12 +37,12 @@ body, html{
     text-align: center;
     padding: 50px 80px;
 }
-
+/*
 .lighter{
     background-color: #f4f4f4;
     color: #666;
 }
-
+*/
 .darker{
     background-color: #282e34;
     color: #ddd;
