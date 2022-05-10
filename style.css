@@ -1,0 +1,76 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    overflow-x: hidden;
+}
+
+.space1, .space2, .space3{
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.space1{
+    background-image: url(/space1.png);
+    min-height: 100%;
+}
+
+.space2{
+    background-image: url(/space2.png);
+    min-height: 400px;
+}
+
+.space3{
+    background-image: url(/space3.png);
+    min-height: 400px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.lighter{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.darker{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.stext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 26px;
+    color: #000;
+}
+
+.stext, .border{
+    background-color: #111;
+    color: #ffff;
+    padding: 20px;
+}
+
+.stext, .borderes{
+    background-color: transparent;
+}
+
+@media(max-width:568px){
+    .space1, .space2, .space3{
+        background-attachment: scroll;
+    }
+}
